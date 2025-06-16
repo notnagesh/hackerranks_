@@ -12,5 +12,6 @@ def str_to_lst(str):
         templst.append(int(k))  
     return templst         
 input()
+#above input is written only because hackerranks takes the first input as number of element in array
 for i in ((str_to_lst(input()))[::-1]):
     print(i,end=" ")
